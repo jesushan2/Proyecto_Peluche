@@ -1,0 +1,109 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+    margin: 0; padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 2.5rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    animation: slideUp 0.8s ease;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #ff69b4;
+    font-size: 2rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    text-align: left;
+    font-weight: bold;
+    color: #444;
+}
+
+form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #87ceeb;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #ff69b4;
+    box-shadow: 0 0 5px #ffb6c1;
+}
+
+form button {
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #00bfff;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff69b4;
+    transform: scale(1.05);
+}
+
+p {
+    margin-top: 1rem;
+    color: red;
+    font-weight: bold;
+}
+
+.styled-button {
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #00bfff;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: #ff69b4;
+    transform: scale(1.05);
+}
+
+
+
+
